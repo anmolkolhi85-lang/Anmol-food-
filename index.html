@@ -1,10 +1,41 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Jaisinghpur Food</title>
+<link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-<h1>Welcome to Jaisinghpur Food</h1>
-<p>Website setup ho rahi hai...</p>
+
+<h1>🍔 Jaisinghpur Food</h1>
+
+<div class="cart">
+Selected Items: <span id="count">0</span>/7
+</div>
+
+<div class="menu">
+
+<button class="item" onclick="selectItem(this)">आलू टिक्की बर्गर ₹60</button>
+
+<button class="item" onclick="selectItem(this)">वेज बर्गर ₹90</button>
+
+<button class="item" onclick="selectItem(this)">चीज़ बर्गर ₹120</button>
+
+<button class="item" onclick="selectItem(this)">पनीर बर्गर ₹140</button>
+
+<button class="item" onclick="selectItem(this)">चिकन बर्गर ₹150</button>
+
+<button class="item" onclick="selectItem(this)">वेज पिज्जा ₹180</button>
+
+<button class="item" onclick="selectItem(this)">मार्घेरिटा पिज्जा ₹200</button>
+
+</div>
+
+<button id="buyBtn">Buy Now</button>
+
+<script src="script.js"></script>
+
 </body>
 </html>
